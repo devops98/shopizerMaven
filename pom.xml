@@ -175,5 +175,16 @@
 		</dependencies>
 
 	</dependencyManagement>
+<distributionManagement>
+  <repository>
+    <id>satya_release</id>
+    <url>http://localhost:8081/nexus/content/repositories/satya_release</url>
+  </repository>
 
+
+  <snapshotRepository>
+    <id>satya_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/satya_snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
